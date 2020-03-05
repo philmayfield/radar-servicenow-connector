@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_459528_radar_alsoconfig</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 19:43:33</sys_created_on>
+        <sys_id>b5438f8a07530010fbdbf2508c1ed0a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_459528_radar_alsoconfig</sys_name>
+        <sys_package display_value="Radar" source="x_459528_radar">d3ac246007130010fbdbf2508c1ed06d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</sys_scope>
+        <sys_update_name>ua_table_licensing_config_b5438f8a07530010fbdbf2508c1ed0a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 19:43:33</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</application>
+        <file_path/>
+        <instance_id>ce358893db6a889007072f17d49619a8</instance_id>
+        <instance_name>dev98303</instance_name>
+        <name>ua_table_licensing_config_b5438f8a07530010fbdbf2508c1ed0a8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_459528_radar_alsoconfig</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-03 19:43:33</sys_created_on><sys_id>b5438f8a07530010fbdbf2508c1ed0a8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_459528_radar_alsoconfig</sys_name><sys_package display_value="Radar" source="x_459528_radar">d3ac246007130010fbdbf2508c1ed06d</sys_package><sys_policy/><sys_scope display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</sys_scope><sys_update_name>ua_table_licensing_config_b5438f8a07530010fbdbf2508c1ed0a8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-03 19:43:33</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>-651563937</payload_hash>
+        <record_name>x_459528_radar_alsoconfig</record_name>
+        <reverted_from/>
+        <source>e02c2aca07130010fbdbf2508c1ed0d5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 19:43:33</sys_created_on>
+        <sys_id>39438f8a07530010fbdbf2508c1ed0aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170a1ecc5060000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 19:43:33</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>71438f8aa5530010db873c1989d8a8aa</update_guid>
+        <update_guid_history>71438f8aa5530010db873c1989d8a8aa:-651563937</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 19:45:14</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>b40fa5f3f37a4c128c94ce0538ec1441</sys_id>
+        <sys_metadata>b5438f8a07530010fbdbf2508c1ed0a8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_459528_radar_alsoconfig</sys_name>
+        <sys_package display_value="Radar" source="x_459528_radar">d3ac246007130010fbdbf2508c1ed06d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</sys_scope>
+        <sys_scope_delete display_value="">005dfcc053c74162a13dca3c234b6db1</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_b5438f8a07530010fbdbf2508c1ed0a8</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_b5438f8a07530010fbdbf2508c1ed0a8">39438f8a07530010fbdbf2508c1ed0aa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 19:45:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

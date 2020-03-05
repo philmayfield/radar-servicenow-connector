@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_459528_radar.also_config_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>also_config_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 19:51:20</sys_created_on>
+        <sys_id>7305cfca07530010fbdbf2508c1ed000</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_459528_radar.also_config_user</sys_name>
+        <sys_package display_value="Radar" source="x_459528_radar">d3ac246007130010fbdbf2508c1ed06d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</sys_scope>
+        <sys_update_name>sys_user_role_7305cfca07530010fbdbf2508c1ed000</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 19:51:20</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</application>
+        <file_path/>
+        <instance_id>ce358893db6a889007072f17d49619a8</instance_id>
+        <instance_name>dev98303</instance_name>
+        <name>sys_user_role_7305cfca07530010fbdbf2508c1ed000</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><encryption_context/><grantable>true</grantable><includes_roles/><name>x_459528_radar.also_config_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>also_config_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-03 19:51:20</sys_created_on><sys_id>7305cfca07530010fbdbf2508c1ed000</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_459528_radar.also_config_user</sys_name><sys_package display_value="Radar" source="x_459528_radar">d3ac246007130010fbdbf2508c1ed06d</sys_package><sys_policy/><sys_scope display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</sys_scope><sys_update_name>sys_user_role_7305cfca07530010fbdbf2508c1ed000</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-03 19:51:20</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-168115006</payload_hash>
+        <record_name>x_459528_radar.also_config_user</record_name>
+        <reverted_from/>
+        <source>e02c2aca07130010fbdbf2508c1ed0d5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 19:51:21</sys_created_on>
+        <sys_id>33054b0e07530010fbdbf2508c1ed046</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170a1f3e6fe0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 19:51:21</sys_updated_on>
+        <type>Role</type>
+        <update_guid>3705cfca5a53001092dd99e1f625c605</update_guid>
+        <update_guid_history>3705cfca5a53001092dd99e1f625c605:-168115006</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_459528_radar.also_config_user">bbdb9bca07930010fbdbf2508c1ed06a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 21:31:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>353220465c82473d967080f1a9613819</sys_id>
+        <sys_metadata>7305cfca07530010fbdbf2508c1ed000</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_459528_radar.also_config_user</sys_name>
+        <sys_package display_value="Radar" source="x_459528_radar">d3ac246007130010fbdbf2508c1ed06d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</sys_scope>
+        <sys_scope_delete display_value="">005dfcc053c74162a13dca3c234b6db1</sys_scope_delete>
+        <sys_update_name>sys_user_role_7305cfca07530010fbdbf2508c1ed000</sys_update_name>
+        <sys_update_version display_value="sys_user_role_7305cfca07530010fbdbf2508c1ed000">33054b0e07530010fbdbf2508c1ed046</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 21:31:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

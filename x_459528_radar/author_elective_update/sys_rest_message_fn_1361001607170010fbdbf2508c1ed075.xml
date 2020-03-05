@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>GETIP</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Radar API [ GETIP ]</qualified_name>
+        <rest_endpoint>https://api.ipify.org?format=json</rest_endpoint>
+        <rest_message display_value="Radar API">4ba7d52007930010fbdbf2508c1ed017</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 00:15:46</sys_created_on>
+        <sys_id>1361001607170010fbdbf2508c1ed075</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GETIP</sys_name>
+        <sys_package display_value="Radar" source="x_459528_radar">d3ac246007130010fbdbf2508c1ed06d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</sys_scope>
+        <sys_update_name>sys_rest_message_fn_1361001607170010fbdbf2508c1ed075</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 00:15:46</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</application>
+        <file_path/>
+        <instance_id>ce358893db6a889007072f17d49619a8</instance_id>
+        <instance_name>dev98303</instance_name>
+        <name>sys_rest_message_fn_1361001607170010fbdbf2508c1ed075</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>GETIP</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Radar API [ GETIP ]</qualified_name><rest_endpoint>https://api.ipify.org?format=json</rest_endpoint><rest_message display_value="Radar API">4ba7d52007930010fbdbf2508c1ed017</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-04 00:15:46</sys_created_on><sys_id>1361001607170010fbdbf2508c1ed075</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GETIP</sys_name><sys_package display_value="Radar" source="x_459528_radar">d3ac246007130010fbdbf2508c1ed06d</sys_package><sys_policy/><sys_scope display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</sys_scope><sys_update_name>sys_rest_message_fn_1361001607170010fbdbf2508c1ed075</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-04 00:15:46</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>-1204627559</payload_hash>
+        <record_name>GETIP</record_name>
+        <reverted_from/>
+        <source>e02c2aca07130010fbdbf2508c1ed0d5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 00:15:46</sys_created_on>
+        <sys_id>d19148d207170010fbdbf2508c1ed08e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170a2e5fef50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 00:15:46</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>1d9148d25f170010f0b1dd1ad535688d</update_guid>
+        <update_guid_history>1d9148d25f170010f0b1dd1ad535688d:-1204627559</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 00:20:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>a5149ff0ed2247a8a369e6a7f9428640</sys_id>
+        <sys_metadata>1361001607170010fbdbf2508c1ed075</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GETIP</sys_name>
+        <sys_package display_value="Radar" source="x_459528_radar">d3ac246007130010fbdbf2508c1ed06d</sys_package>
+        <sys_parent display_value="Radar API">4ba7d52007930010fbdbf2508c1ed017</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</sys_scope>
+        <sys_scope_delete display_value="">005dfcc053c74162a13dca3c234b6db1</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_1361001607170010fbdbf2508c1ed075</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_1361001607170010fbdbf2508c1ed075">d19148d207170010fbdbf2508c1ed08e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 00:20:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

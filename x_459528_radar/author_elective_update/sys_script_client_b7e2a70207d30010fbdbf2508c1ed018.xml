@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sys_scope</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>obfuscate</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	// get the id from the form
+	var token = g_form.getValue('bearer_token');
+	g_form.setValue('bearer_temp', token);
+	
+	var obfuscation = 'foo';
+	
+	g_form.setValue('bearer_token', obfuscation);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 22:08:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b7e2a70207d30010fbdbf2508c1ed018</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>obfuscate</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Radar" source="x_459528_radar">d3ac246007130010fbdbf2508c1ed06d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</sys_scope>
+        <sys_update_name>sys_script_client_b7e2a70207d30010fbdbf2508c1ed018</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 22:09:19</sys_updated_on>
+        <table>x_459528_radar_config</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</application>
+        <file_path/>
+        <instance_id>ce358893db6a889007072f17d49619a8</instance_id>
+        <instance_name>dev98303</instance_name>
+        <name>sys_script_client_b7e2a70207d30010fbdbf2508c1ed018</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;sys_scope&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;obfuscate&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+	// get the id from the form
+	var token = g_form.getValue('bearer_token');
+	g_form.setValue('bearer_temp', token);
+	
+	var obfuscation = 'foo';
+	
+	g_form.setValue('bearer_token', obfuscation);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-03-03 22:08:03&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b7e2a70207d30010fbdbf2508c1ed018&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;obfuscate&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Radar" source="x_459528_radar"&gt;d3ac246007130010fbdbf2508c1ed06d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Radar"&gt;d3ac246007130010fbdbf2508c1ed06d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_b7e2a70207d30010fbdbf2508c1ed018&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-03-03 22:09:19&lt;/sys_updated_on&gt;&lt;table&gt;x_459528_radar_config&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1816641686</payload_hash>
+        <record_name>obfuscate</record_name>
+        <reverted_from/>
+        <source>e02c2aca07130010fbdbf2508c1ed0d5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 22:09:19</sys_created_on>
+        <sys_id>41a42f4207d30010fbdbf2508c1ed0a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170a27237d30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 22:09:19</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>49a42f4241d30010ec5a8c3358e218a6</update_guid>
+        <update_guid_history>49a42f4241d30010ec5a8c3358e218a6:1816641686,ee54eb42b4d30010c73c5d92c01bc3f4:1547233495</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 23:03:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>3376c6abeeec4911aad8d4d42fe865b1</sys_id>
+        <sys_metadata>b7e2a70207d30010fbdbf2508c1ed018</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>obfuscate</sys_name>
+        <sys_package display_value="Radar" source="x_459528_radar">d3ac246007130010fbdbf2508c1ed06d</sys_package>
+        <sys_parent display_value="">8cb5474e07530010fbdbf2508c1ed020</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</sys_scope>
+        <sys_scope_delete display_value="">005dfcc053c74162a13dca3c234b6db1</sys_scope_delete>
+        <sys_update_name>sys_script_client_b7e2a70207d30010fbdbf2508c1ed018</sys_update_name>
+        <sys_update_version display_value="sys_script_client_b7e2a70207d30010fbdbf2508c1ed018">41a42f4207d30010fbdbf2508c1ed0a7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 23:03:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

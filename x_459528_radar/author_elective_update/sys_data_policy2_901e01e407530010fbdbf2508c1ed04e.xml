@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2">
+    <sys_data_policy2 action="DELETE">
+        <active>true</active>
+        <apply_import_set>true</apply_import_set>
+        <apply_soap>true</apply_soap>
+        <conditions table="incident">x_459528_radar_radar_incident_idISNOTEMPTY^EQ<item endquery="false" field="x_459528_radar_radar_incident_id" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <enforce_ui>true</enforce_ui>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table>incident</model_table>
+        <reverse_if_false>true</reverse_if_false>
+        <short_description>Show or hide the Radar Incident section</short_description>
+        <sys_class_name>sys_data_policy2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-27 19:20:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>901e01e407530010fbdbf2508c1ed04e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show or hide the Radar Incident section</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Radar" source="x_459528_radar">d3ac246007130010fbdbf2508c1ed06d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</sys_scope>
+        <sys_update_name>sys_data_policy2_901e01e407530010fbdbf2508c1ed04e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-27 19:20:34</sys_updated_on>
+    </sys_data_policy2>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</application>
+        <file_path/>
+        <instance_id>ce358893db6a889007072f17d49619a8</instance_id>
+        <instance_name>dev98303</instance_name>
+        <name>sys_data_policy2_901e01e407530010fbdbf2508c1ed04e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2"><sys_data_policy2 action="INSERT_OR_UPDATE"><active>true</active><apply_import_set>true</apply_import_set><apply_soap>true</apply_soap><conditions table="incident">x_459528_radar_radar_incident_idISNOTEMPTY^EQ<item endquery="false" field="x_459528_radar_radar_incident_id" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></conditions><description/><enforce_ui>true</enforce_ui><inherit>false</inherit><model_id/><model_table>incident</model_table><reverse_if_false>true</reverse_if_false><short_description>Show or hide the Radar Incident section</short_description><sys_class_name>sys_data_policy2</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-27 19:20:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>901e01e407530010fbdbf2508c1ed04e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Show or hide the Radar Incident section</sys_name><sys_overrides/><sys_package display_value="Radar" source="x_459528_radar">d3ac246007130010fbdbf2508c1ed06d</sys_package><sys_policy/><sys_scope display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</sys_scope><sys_update_name>sys_data_policy2_901e01e407530010fbdbf2508c1ed04e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-27 19:20:34</sys_updated_on></sys_data_policy2></record_update>]]></payload>
+        <payload_hash>2096155558</payload_hash>
+        <record_name>Show or hide the Radar Incident section</record_name>
+        <reverted_from/>
+        <source>add734a407130010fbdbf2508c1ed0cd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-27 19:20:34</sys_created_on>
+        <sys_id>501ec16807530010fbdbf2508c1ed0d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1708817ec210000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-27 19:20:34</sys_updated_on>
+        <type>Data Policy</type>
+        <update_guid>581ec168ee5300108ad8ae2ef2c4ded4</update_guid>
+        <update_guid_history>581ec168ee5300108ad8ae2ef2c4ded4:2096155558</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-27 19:21:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy2">sys_data_policy2</sys_db_object>
+        <sys_id>5be20b3b5a764910a2eb23adbcd205c4</sys_id>
+        <sys_metadata>901e01e407530010fbdbf2508c1ed04e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show or hide the Radar Incident section</sys_name>
+        <sys_package display_value="Radar" source="x_459528_radar">d3ac246007130010fbdbf2508c1ed06d</sys_package>
+        <sys_parent display_value="Incident">f19dfc9807d30010fbdbf2508c1ed061</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</sys_scope>
+        <sys_scope_delete display_value="">005dfcc053c74162a13dca3c234b6db1</sys_scope_delete>
+        <sys_update_name>sys_data_policy2_901e01e407530010fbdbf2508c1ed04e</sys_update_name>
+        <sys_update_version display_value="sys_data_policy2_901e01e407530010fbdbf2508c1ed04e">501ec16807530010fbdbf2508c1ed0d5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-27 19:21:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

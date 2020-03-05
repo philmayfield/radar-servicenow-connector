@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Radar">0bdc2c6007130010fbdbf2508c1ed0f3</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Also Configs</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_459528_radar_also_config</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_459528_radar.also_config_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 19:51:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>73054b0e07530010fbdbf2508c1ed04a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Also Configs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Radar" source="x_459528_radar">d3ac246007130010fbdbf2508c1ed06d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</sys_scope>
+        <sys_update_name>sys_app_module_73054b0e07530010fbdbf2508c1ed04a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 19:51:21</sys_updated_on>
+        <timeline_page/>
+        <title>Also Configs</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</application>
+        <file_path/>
+        <instance_id>ce358893db6a889007072f17d49619a8</instance_id>
+        <instance_name>dev98303</instance_name>
+        <name>sys_app_module_73054b0e07530010fbdbf2508c1ed04a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Radar">0bdc2c6007130010fbdbf2508c1ed0f3</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Also Configs</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_459528_radar_also_config</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_459528_radar.also_config_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-03 19:51:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>73054b0e07530010fbdbf2508c1ed04a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Also Configs</sys_name><sys_overrides/><sys_package display_value="Radar" source="x_459528_radar">d3ac246007130010fbdbf2508c1ed06d</sys_package><sys_policy/><sys_scope display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</sys_scope><sys_update_name>sys_app_module_73054b0e07530010fbdbf2508c1ed04a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-03 19:51:21</sys_updated_on><timeline_page/><title>Also Configs</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-248857479</payload_hash>
+        <record_name>Also Configs</record_name>
+        <reverted_from/>
+        <source>e02c2aca07130010fbdbf2508c1ed0d5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 19:51:21</sys_created_on>
+        <sys_id>ff054b0e07530010fbdbf2508c1ed04b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170a1f3e7670000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 19:51:21</sys_updated_on>
+        <type>Module</type>
+        <update_guid>3b054b0ed6530010c8e97daa15e0da4b</update_guid>
+        <update_guid_history>3b054b0ed6530010c8e97daa15e0da4b:-248857479</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Also Configs">5ca5c34e07530010fbdbf2508c1ed075</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 19:53:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>39f2b1ee449243a28d7ab107bd92af84</sys_id>
+        <sys_metadata>73054b0e07530010fbdbf2508c1ed04a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Also Configs</sys_name>
+        <sys_package display_value="Radar" source="x_459528_radar">d3ac246007130010fbdbf2508c1ed06d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</sys_scope>
+        <sys_scope_delete display_value="">005dfcc053c74162a13dca3c234b6db1</sys_scope_delete>
+        <sys_update_name>sys_app_module_73054b0e07530010fbdbf2508c1ed04a</sys_update_name>
+        <sys_update_version display_value="sys_app_module_73054b0e07530010fbdbf2508c1ed04a">ff054b0e07530010fbdbf2508c1ed04b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 19:53:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
