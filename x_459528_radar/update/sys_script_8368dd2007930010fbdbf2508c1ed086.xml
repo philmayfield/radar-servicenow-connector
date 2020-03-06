@@ -39,7 +39,7 @@
 		var defaultRadarIncidentName = "ServiceNow privacy incident: " + current.number;
 		
 		// Define the Radar API method we'll be using
-		var apiMethod = radar.apiMethodType.incidentCreate;
+		var apiMethod = radar.apiMessage.methods.incidentCreate;
 		
 		// Get an ISO 8601 representation of the created on date
 		var firstInformedAt = toIsoDateTime(current.sys_created_on);
@@ -91,7 +91,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8368dd2007930010fbdbf2508c1ed086</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Create incident</sys_name>
         <sys_overrides/>
         <sys_package display_value="Radar" source="x_459528_radar">d3ac246007130010fbdbf2508c1ed06d</sys_package>
@@ -99,7 +99,7 @@
         <sys_scope display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</sys_scope>
         <sys_update_name>sys_script_8368dd2007930010fbdbf2508c1ed086</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 23:52:36</sys_updated_on>
+        <sys_updated_on>2020-03-06 18:19:56</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

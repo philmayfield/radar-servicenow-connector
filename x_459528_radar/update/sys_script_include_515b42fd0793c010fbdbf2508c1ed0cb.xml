@@ -15,28 +15,30 @@ Radar.prototype = {
     type: 'Radar',
 	
 	configTable: {
-		name: 'x_459528_radar_config'
+		name: 'x_459528_radar_config',
+		columns: {
+			bearerToken: 'bearer_token',
+			incidentGroupId: 'incident_group_id'
+		}
 	},
 	
-	configColumn: {
-		bearerToken: 'bearer_token',
-		incidentGroupId: 'incident_group_id'
-	},
-	
-	apiMethodType: {
-		incidentCreate: 'Incident Create',
-		noteCreate: 'Note Create'
+	apiMessage: {
+		name: 'Radar API',
+		methods: {
+			incidentCreate: 'Incident Create',
+			noteCreate: 'Note Create'
+		}
 	},
 	
 	getBearerToken: function() {
 		// Returns: string
 		
 		// Query the Radar Config table sorted by newest
-		var gr = this.getColumnFromConfig(this.configColumn.bearerToken);
+		var gr = this.getColumnFromConfig(this.configTable.columns.bearerToken);
 
 		if (gr.next()) {
 			// Set value for token
-			var grToken = gr.getDisplayValue(this.configColumn.bearerToken);
+			var grToken = gr.getDisplayValue(this.configTable.columns.bearerToken);
 			if (!grToken) {
 				throw({ message: 'There was a problem with your Radar Configuration' });
 			}
@@ -51,11 +53,11 @@ Radar.prototype = {
 		// Returns: integer
 		
 		// Query the Radar Config table sorted by newest
-		var gr = this.getColumnFromConfig(this.configColumn.incidentGroupId);
+		var gr = this.getColumnFromConfig(this.configTable.columns.incidentGroupId);
 
 		if (gr.next()) {
 			// Set value for incident group id
-			var grIncidentGroupId = parseInt(gr.getValue(this.configColumn.incidentGroupId), 10);
+			var grIncidentGroupId = parseInt(gr.getValue(this.configTable.columns.incidentGroupId), 10);
 			if (!grIncidentGroupId) {
 				throw({ message: 'There was a problem with your Radar Configuration' });
 			}
@@ -123,7 +125,7 @@ Radar.prototype = {
 			category: 'ServiceNow',
 			content: content.toString()
 		};
-		var request = this.prepareRequest(this.apiMethodType.noteCreate, body);
+		var request = this.prepareRequest(this.apiMessage.methods.noteCreate, body);
 		
 		// Set incident_id parameter required by the API 
 		request.setStringParameterNoEscape('incident_id', radarIncidentId);
@@ -131,7 +133,7 @@ Radar.prototype = {
 		// Set up the response which is returned as a RestResponseV2
 		var response = request.executeAsync();
 		var httpStatus = response.getStatusCode();
-		var msg = getApiMessaging(this.apiMethodType.noteCreate, response);
+		var msg = getApiMessaging(this.apiMessage.methods.noteCreate, response);
 		
 		if (httpStatus != '201') {
 			current.work_notes = msg;
@@ -142,13 +144,13 @@ Radar.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-02 21:04:56</sys_created_on>
         <sys_id>515b42fd0793c010fbdbf2508c1ed0cb</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Radar</sys_name>
         <sys_package display_value="Radar" source="x_459528_radar">d3ac246007130010fbdbf2508c1ed06d</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Radar">d3ac246007130010fbdbf2508c1ed06d</sys_scope>
         <sys_update_name>sys_script_include_515b42fd0793c010fbdbf2508c1ed0cb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-05 19:39:53</sys_updated_on>
+        <sys_updated_on>2020-03-06 18:18:48</sys_updated_on>
     </sys_script_include>
 </record_update>
